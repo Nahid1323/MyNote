@@ -11,7 +11,7 @@ class MainActivity : AppCompatActivity() {
     private lateinit var binding:ActivityMainBinding
     private lateinit var db:NoteDatabaseHelper
     private lateinit var notesAdapter: NotesAdapter
-
+//fghd
     override fun onCreate(savedInstanceState: Bundle?) {
         Thread.sleep(2000)
         installSplashScreen()
