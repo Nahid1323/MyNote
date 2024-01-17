@@ -1,0 +1,15 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <!-- Base application theme. -->
+    <style name="Base.Theme.MyNotes" parent="Theme.Material3.DayNight.NoActionBar">
+        <!-- Customize your light theme here. -->
+        <item name="colorPrimary">@color/simple_blue</item>
+        <item name="colorPrimaryVariant">@color/simple_blue</item>
+        <item name="android:statusBarColor">@color/simple_blue</item>
+    </style>
+    <style name="Theme.AppCompat.MyNotes" parent="Base.Theme.MyNotes" >
+        <item name="windowSplashScreenBackground">@color/simple_blue</item>
+        <item name="windowSplashScreenAnimatedIcon">@drawable/task_app_logo</item>
+        <item name="postSplashScreenTheme">@style/Base.Theme.MyNotes</item>
+    </style>
+
+</resources>
